@@ -2,10 +2,41 @@
   font-family: 'Quicksand', sans-serif;
 }
 header{
-  margin-top: 20px;
-}
-.registro{
-  /*background-image: url("../img/taxi.jpg");*/
+  margin-top: 50px;
+  height: 100px;
+  color: black
 
-  height: 150px;
+}
+
+.registro{
+  background-image: url("../img/taxi.jpg");
+  height: 550px;
+}
+.registroJum{
+  margin-top: 130px;
+  color: white;
+  background-color: #f7b617;
+}
+.btnRegistro{
+  background-color: white;
+  color: black;
+  border: none;
+}
+.app{
+
+  background-color: #f7b617;
+  color: white;
+  height: 550px;
+}
+.descripcionApp{
+    margin-top: 70px;
+    border: 1px solid white;
+    max-height: 100%;
+}
+.margenSuperior{
+  margin-top: 70px;
+}
+.margenLateral{
+  margin-left: 70px;
+
 }
