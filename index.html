@@ -7,6 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
   <body>
@@ -16,12 +17,12 @@
             <div class="col-md-8">
               <img src="img/logoForma.png" >
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 visible-md-*">
               <nav class="navbar-left">
-                  <ul class="nav nav-pills">
-                    <li role="presentation"><a href="#">Viaja</a></li>
-                    <li role="presentation"><a href="#">Conduce</a></li>
-                    <li role="presentation"><a href="#">Inicia sesion</a></li>
+                  <ul class="nav nav-pills ">
+                    <li role="presentation"><a class="opciones" href="#">Viaja</a></li>
+                    <li role="presentation"><a class="opciones" href="#">Conduce</a></li>
+                    <li role="presentation"><a class="opciones" href="#">Inicia sesion</a></li>
                   </ul>
               </nav>
             </div>
@@ -100,7 +101,9 @@
           <div class="col-md-2">
           </div>
           <div class="col-md-3">
-          aqui va el mapa
+            <a href="#" class="thumbnail">
+                  <img src="img/map.png" height="100%">
+                </a>
           </div>
           <div class="col-md-1">
           </div>
@@ -114,9 +117,16 @@
             </div>
           </div>
           <hr class="lineaFooter">
-          <div class="row contacto">
-            <div class="col-md-3">
-              iconos
+          <div class="row contacto  ">
+            <div class="col-md-3 media social">
+              <div class=" media-bottom margenIcono">
+                <a  class="imgFooter media-bottom"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a class="imgFooter media-bottom"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+    						<a class="imgFooter media-bottom"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+    						<a class="imgFootermedia-bottom"><i class="fa fa-dribbble fa-lg" aria-hidden="true"></i></a>
+              </div>
+
+
             </div>
             <div class="col-md-3">
               <ul class="list-unstyled">
@@ -156,15 +166,9 @@
             <div class="col-md-12 contacto" >
               <p>© LabCar technologies Inc</p>
             </div>
-
           </div>
-
         </div>
-
       </footer>
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

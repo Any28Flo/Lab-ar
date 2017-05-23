@@ -82,4 +82,12 @@ footer{
 .contacto
 {
   color: white;
+
+}
+.social{
+  height: 100px;
+}
+.opciones{
+  color: black;
+  font-size: 20px;
 }
