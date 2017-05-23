@@ -4,8 +4,7 @@
 header{
   margin-top: 50px;
   height: 100px;
-  color: black
-
+  color: black;
 }
 .imagen
 {
@@ -56,14 +55,31 @@ header{
 }
 .seConductor{
   color: black;
-  height: 250px;
+  height: 850px;
 }
 .bienvenida{
   height: 300px;
 }
 .tarifas{
-
   background-color: #f7b617;
   color: white;
   height: 550px;
+}
+.icono{
+  background: none;
+  border: none;
+}
+.margenIcono{
+  margin-top: 10px;
+}
+footer{
+  background-color: #333333;
+
+}
+.lineaFooter{
+  color: white;
+}
+.contacto
+{
+  color: white;
 }
