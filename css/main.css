@@ -2,9 +2,11 @@
   font-family: 'Quicksand', sans-serif;
 }
 header{
-  margin-top: 50px;
+
   height: 100px;
   color: black;
+  background-color: white;
+
 }
 .imagen
 {
@@ -68,6 +70,9 @@ header{
 .icono{
   background: none;
   border: none;
+}
+.margenHeader{
+  margin-top: 15px;
 }
 .margenIcono{
   margin-top: 10px;
