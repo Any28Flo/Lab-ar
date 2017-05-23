@@ -1,0 +1,11 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+header{
+  margin-top: 20px;
+}
+.registro{
+  /*background-image: url("../img/taxi.jpg");*/
+
+  height: 150px;
+}
